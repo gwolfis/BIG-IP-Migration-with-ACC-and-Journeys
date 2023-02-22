@@ -40,7 +40,7 @@ The output field in the VSC terminal section shows that the BIG-IP gets connecte
 
 **Step 5:** Scroll down in the BIG-IPS section to the **Config Explorer** and Import a TMOS config from UCS by clicking **Import .conf/UCS/QKVIEW from local file**.
 
-**Step 6:** From the opened **Folder** (/Home/ubuntu), select folder **ucs** and select **20230220-archive.ucs** and click **Open**.
+**Step 6:** From the opened **Folder** (/Home/ubuntu), select folder **ucs** and select **20230221-archive.ucs** and click **Open**.
 
 **Step 7:** In **Config Explorer** select **Sources** and click **config/bip_base.conf**. The file bigip_base.conf opens in VSC main window.
 
