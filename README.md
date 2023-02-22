@@ -38,7 +38,9 @@ This workshop makes use of the UDF lab **Journeys Procut Team Demo/Lab**. When y
 * This host should have VSC installed with the F5 extension, F5 Journeys.
 
 ## Sources
-<mention where you have grabbed all the info from>
+* F5 BIG-IP Automation Config Converter (BIG-IP ACC): https://clouddocs.f5.com/products/extensions/f5-automation-config-converter/latest/
+
+* F5 Journeys: https://github.com/f5devcentral/f5-journeys
 
 **********************************
 ## Table of Contents
