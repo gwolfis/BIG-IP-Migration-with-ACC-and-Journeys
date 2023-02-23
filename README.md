@@ -57,4 +57,4 @@ This workshop makes use of the UDF lab **Journeys Procut Team Demo/Lab**. When y
 **[Module 5: Restore a UCS on a BIG-IP using F5 Journeys Lab UCS Modifier](docs/module_5.md)**
 
 
-[NEXT](../docs/module_1.md)
+[NEXT](/docs/module_1.md)
