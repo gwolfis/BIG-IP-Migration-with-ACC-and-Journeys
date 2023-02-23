@@ -19,3 +19,5 @@ In this lab, we are going to use Journeys App to migrate the entire BIG-IP confi
 - You can also use the UCS available in the ubuntu server under ``/home/ubuntu/ucs`` called ``full-migration-demo.ucs`` using the offline mode. This UCS contains all the known system compatibility issues with VELOS.
 - There is a bash script available on the ubuntu server ``/home/ubuntu/demo-journeys-backup-restore.sh`` which can be used to demo backup/restore use case using Journeys App.
 - **BIG-IP 12.1** is also available if you need to restore a custom BIG-IP configuration from your customer on it (follow instructions under **Lab 3: Restore a UCS ...**)
+
+[PREVIOUS](../docs/module_3.md)      [NEXT](../docs/module_5.md)
