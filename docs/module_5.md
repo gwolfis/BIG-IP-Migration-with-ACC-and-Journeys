@@ -1,5 +1,9 @@
 # Module 5: Restore a UCS on a BIG-IP using F5 Journeys Lab UCS Modifier
 
+```
+This lab is not working at the moment. Please don't waste your time explorering it.
+```
+
 In this lab, we are going to use Journeys Lab UCS Modifier to restore a UCS on a BIG-IP 13.1, then upgrade it to 16.1 (in-place upgrade).
 
 **Note:** In this lab, we are using a lab UCS for the demo but you could get a UCS from your customer and restore it on one of the BIG-IP available in this blueprint. Just make sure the BIG-IP you use to restore the UCS has the same version as the UCS. You could use the Journeys-App to upload the UCS from your laptop into the Ubuntu system under ``/tmp/journeys/<session name>``.
@@ -92,3 +96,5 @@ The Journeys App is already installed on the Ubuntu server in the blueprint.
 ## F5 VSCode Extension
 Learn more about F5 VSCode Extension on [GitHub](https://f5devcentral.github.io/vscode-f5/#/).
 Visual Studio Code, as well as the Extension, are already installed on the Ubuntu server in the blueprint (password is `journeys`).
+
+[PREVIOUS](../docs/module_4.md)      [BACK to README](../docs/README.md)

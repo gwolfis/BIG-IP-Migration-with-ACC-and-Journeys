@@ -42,3 +42,4 @@ In this lab, we are going to use Journeys App to migrate couple Virtual Servers 
 16. Open the F5 Extension and add the BIG-IQ in the F5 host's section
 17. Once authenticated, you should see the `demo` AS3 tenant showing under the 10.1.1.6 target. From here, you can look at the app service configuration and make any edits/changes there using the F5 VSCode Extension.
 
+[PREVIOUS](../docs/module_2.md)      [NEXT](../docs/module_4.md)
