@@ -4,7 +4,7 @@ In this module ACC will get used convert the app services configuration.
 
 **Step 1:** In VSC, go to the **Config Explorer** and select **Partitions > Common**.
 
-**Step 2:** Use the F5 Extension right-click options to convert from objetc-based config to AS3 json schema.
+**Step 2:** Use the F5 Extension right-click options to convert from object-based config to AS3 json schema.
 
 **Step 3:** Change the following object in the A3 declaration
 
