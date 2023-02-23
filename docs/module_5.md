@@ -97,4 +97,4 @@ The Journeys App is already installed on the Ubuntu server in the blueprint.
 Learn more about F5 VSCode Extension on [GitHub](https://f5devcentral.github.io/vscode-f5/#/).
 Visual Studio Code, as well as the Extension, are already installed on the Ubuntu server in the blueprint (password is `journeys`).
 
-[PREVIOUS](../docs/module_4.md)      [BACK to README](../docs/README.md)
+[PREVIOUS](../docs/module_4.md)      [BACK to README](../README.md)
