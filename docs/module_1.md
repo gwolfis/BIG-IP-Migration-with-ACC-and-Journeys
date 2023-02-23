@@ -72,4 +72,4 @@ VSC will claim after while that Posting DO Declaration is still ongoing (HTTP 20
 # Summary
 Using VSC and the additional F5 extensions we connected to a BIG-IP and used an offline stored UCS file to read the bigip_base.conf and modify it to a usable Declarative Onboarding json schema. This do.json has been deployed to configure the BIG-IP via a declarative REST-API request.
 
-[PREVIOUS](docs/README.md)|      [NEXT](../docs/module_2.md)
+[PREVIOUS](docs/README.md)-|-[NEXT](../docs/module_2.md)
