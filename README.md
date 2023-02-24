@@ -15,7 +15,6 @@ There always comes a point in time where you need to switch gears and your IT ne
 
 Looking at the several reasons it becomes clear that each reason must have its own approach defined. Hence, there is nothing more personal then a migration.
 
-## Workshop
 F5 has developed a two tools to support migration use cases like the ones previously mentioned:
 
 * **BIG-IP Automation Config Converter (ACC)**: 
@@ -24,6 +23,7 @@ or an F5 BIG-IP Declarative Onboarding (BIG-IP DO) declaration.
 
 * **F5 Journeys**: JOURNEYS is an application designed to assist F5 Customers with migrating a BIG-IP configuration to a new F5 device and enable new ways of migrating.
 
+## Workshop
 During this workshop you will learn:
 
 * How to use BIG-IP ACC to convert BIG-IP configs.

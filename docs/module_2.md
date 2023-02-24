@@ -4,19 +4,21 @@ In this module ACC will get used convert the app services configuration.
 
 **Step 1:** In VSC, go to the **Config Explorer** and select **Partitions > Common**.
 
-**Step 2:** Use the F5 Extension right-click options to convert from object-based config to AS3 json schema.
+**Step 2:** Use the F5 Extension right-click options to convert from object-based config to AS3 json schema by selecting **Convert to AS3 with ACC**.
 
 **Step 3:** Change the following object in the A3 declaration
 
 | Object Name|Old Value|New Value|
 |------------|---------|---------|
-| Tenant Name| Common | tenant_test|
+| Tenant Name| Common | https_app|
 
-tenant name from **Common** to **https_app**.
 
 **Step 4:** Save the AS3 json schema by pressing `Ctrl+s` and name it **as3.json**. Place where to save it is a don't care.
 
-**Step 5:** Use the 'mouse right-click' options to declare the AS3 declaration to the connected BIG-IP.
+**Step 5:** Use the 'mouse right-click' options to **POST** the AS3 declaration to the connected BIG-IP.
+
+* Wait for the response you will receive in VSC.
+* This reponse should be have an HTTP Code of 200 and a message of success.
 
 **Step 6:** Use the GUI of the BIG-IP to check if the AS3 declaration has been deployed. (admin/journeys2021)
 
