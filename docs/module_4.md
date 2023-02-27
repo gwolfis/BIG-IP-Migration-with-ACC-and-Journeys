@@ -20,15 +20,14 @@ In this lab, we are going to use Journeys App to migrate the entire BIG-IP confi
 
 **Step 9:** Verify & Edit Configuration (optional). This operation can take up to 15 minutes.
 
-```
-Notes: You may encounter warnings (e.g. ``/Common/serverssl, default option no-tlsv1.3 set``). Load validation can produce false positive output if the configuration contains any parts subject to fix-up scripts built into the BIG-IP ucs load process. These fix-ups cannot be automatically incorporated in the validation module. [More details](https://github.com/f5devcentral/f5-journeys#load-validation).
-```
+
+**Notes:** You may encounter warnings (e.g. ``/Common/serverssl, default option no-tlsv1.3 set``). Load validation can produce false positive output if the configuration contains any parts subject to fix-up scripts built into the BIG-IP ucs load process. These fix-ups cannot be automatically incorporated in the validation module. [More details](https://github.com/f5devcentral/f5-journeys#load-validation).
 
 **Step 10:** Deploy the modified UCS by selecting **Next** and **Deploy Now**.
 
 **Step 11:** Fill in the BIG-IP creds for source and destination and don't forget to use **Discover**, keep the **Crearte backup UCS** option and once again select **Deploy Now**.
 
-**Notes**:
+**Notes:**
 - You can also use the UCS available in the ubuntu server under ``/home/ubuntu/ucs`` called ``full-migration-demo.ucs`` using the offline mode. This UCS contains all the known system compatibility issues with VELOS.
 - There is a bash script available on the ubuntu server ``/home/ubuntu/demo-journeys-backup-restore.sh`` which can be used to demo backup/restore use case using Journeys App.
 - **BIG-IP 12.1** is also available if you need to restore a custom BIG-IP configuration from your customer on it (follow instructions under **Module 5: Restore a UCS ...**)

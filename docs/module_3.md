@@ -16,7 +16,7 @@ This program leverages tools that sales, customers, partners and consultants can
 
 **Credentials:** admin and root passwords for all F5 systems are `journeys2021
 
-# Lab 1: Per-App Migration using Journeys App
+# Per-App Migration using Journeys App
 
 In this lab, we are going to use Journeys App to migrate couple Virtual Servers from a BIG-IP 13.1 to a BIG-IP 16.1. 
 
@@ -30,7 +30,7 @@ In this lab, we are going to use Journeys App to migrate couple Virtual Servers 
 
 **Step 5:** Select *Read the configuration from a live BIG-IP System* and enter BIG-IP 13.1 ip address and credentials (10.1.1.5, admin/journeys2021).
 
-*6*Step 6:** You can look now at the merging preferences, you can keep the default. Click **Next**.
+**Step 6:** You can look now at the merging preferences, you can keep the default. Click **Next**.
 
 **Step 7:** You are now in the Application Inventory where you can rename tenants & apps, move virtual servers between apps, edit the virtual servers, look at the AS3 declaration for each app.
 

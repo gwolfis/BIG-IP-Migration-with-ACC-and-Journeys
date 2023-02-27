@@ -19,9 +19,8 @@ For brownfield use cases F5 developed [BIG-IP ACC](https://clouddocs.f5.com/prod
 # Tasks
 During this module you will use a BIG-IP configuration from UCS and convert it into Declarative Onboarding (DO) and deploy it as a declaration into the BIG-IP.
 
-```
-Note: A pop-up window might appear called 'Unlock Login Keyring' and 'Authentication required' password = journeys
-```
+**Note:** A pop-up window might appear called 'Unlock Login Keyring' and 'Authentication required' password = journeys
+
 
 ## Task 1 - Convert bigip_base.conf
 
@@ -71,13 +70,9 @@ Remove the SNMP part from the DO JSON schema.
 
 **Step 12:** Check the configuration in the BIG-IP via the GUI.
 
-```
-Note: VSC will claim after while that Posting DO Declaration is still ongoing (HTTP 202) while the declaration has been POSTed. Please ignore the message.
-```
+**Note:** VSC will claim after while that Posting DO Declaration is still ongoing (HTTP 202) while the declaration has been POSTed. Please ignore the message.
 
-```
-Remark: When the DO dclaration is not getting deployed on the BIG-IP. Uninstall the F5 ACC Chariot plugin from VSC and re-install it. Don't forget to reconnect to the BIG-IP before retrying deploying the DO declaration.
-```
+**Remark:** When the DO dclaration is not getting deployed on the BIG-IP. Uninstall the F5 ACC Chariot plugin from VSC and re-install it. Don't forget to reconnect to the BIG-IP before retrying deploying the DO declaration.
 
 # Summary
 Using VSC and the additional F5 extensions we connected to a BIG-IP and used an offline stored UCS file to read the bigip_base.conf and modify it to a usable Declarative Onboarding json schema. This do.json has been deployed to configure the BIG-IP via a declarative REST-API request.
