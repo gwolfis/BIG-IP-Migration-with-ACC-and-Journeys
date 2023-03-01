@@ -55,7 +55,7 @@ In this lab, we are going to use Journeys App to migrate couple Virtual Servers 
 **Step 15:** Finally hit **Deploy Now**.
 **Step 16:** Enter the following:
 
-* BIG-IP 16.1 ip address and credentials (10.1.1.5, admin/journeys2021)
+* BIG-IP 16.1 ip address and credentials (10.1.1.6, admin/journeys2021)
 * Select **Discover**
 * BIG-IQ ip address and credentials (10.1.1.4, admin/journeys2021).
 * Click **Deploy Now** and **Confirm**.
